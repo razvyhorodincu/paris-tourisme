@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musée du Louvre | Paris-Visite</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/256/203/203026.png">
+    <link rel="stylesheet" href="paris.css">
+    <script src="paris.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <a href="accueil.html" class="logo">Paris-Visite</a>
+        <ul class="nav-links">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="tour_eiffel.html">Tour Eiffel</a></li>
+            <li><a href="musee_louvre.html">Musée du Louvre</a></li>
+            <li><a href="chateau_versailles.html">Château de Versailles</a></li>
+            <li><a href="notre-dame.html">Notre-Dame</a></li>
+            <li><a href="disneyland.html">Disneyland Paris</a></li>
+        </ul>
+    </nav>
+
+    <div id="louvre" class="page">
+        <div class="detail-page">
+            <button class="back-btn" onclick="window.location.href='accueil.html'">← Retour à l'accueil</button>
+            
+            <div class="detail-header">
+                <h1>Le Musée du Louvre</h1>
+            </div>
+
+            <div class="gallery">
+                <img src="https://static.europe1.fr/var/europe1/storage/media/image/2024/11/28/00/huit-choses-que-vous-avez-toujours-voulu-savoir-sur-le-louvre-sans-jamais-oser-le-demander.jpg" alt="Pyramide du Louvre">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/250px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="La Joconde">
+                <img src="https://www.marble-sculpture.com/cdn/shop/products/IMG_0816.jpg?v=1773416790&width=1946" alt="Vénus de Milo">
+                <img src="https://static.vitrine.ynov.com/var/site/storage/images/5/7/6/3/113675-1-fre-FR/3aab341e8272-Louvre.jpg" alt="Intérieur du Louvre">
+            </div>
+
+            <div class="info-grid">
+                <div class="fact">
+                    <h2>Histoire</h2>
+                    <p>Le Louvre est né en 1190 par Philippe Auguste comme forteresse pour protéger Paris et contrôler la Seine. Il comprenait un donjon, des tours et des douves. Au XIVe siècle, il est transformé en une résidence royale par Charles V. De 1546, François Ier commence la transformation du Louvre en palais Renaissance sous le guide de Pierre Lescot, cette transformation étant également menée sous Henri II. Henri IV connecte le Louvre à Tuileries par la Grande Galerie en 1594 qui marque le début de l'évolution du complexe. Les travaux continuent sous Louis XIII et Louis XIV par le biais de l'agrandissement de la Cour carrée et l'augmentation de la Colonnade. <br> Après le départ de Louis XIV vers Versailles en 1678, le Louvre ne reste pas un domaine réservé pour les rois mais plutôt une maison pour conserver leurs collections. Le musée ouvre le 10 août 1793 lors de la Révolution française et est appelé Musée central des Beaux-Arts avec l'ajout d'œuvres appartenant aux expositions. Le musée change encore de noms pour devenir le Musée Napoléon lors du règne de Napoléon Ier. <br> Au XXe siècle, le Louvre a été modernisé, notamment avec la pyramide de verre inaugurée en 1989 par I. M. Pei afin d'attirer les touristes.</p>
+                </div>
+                <div class="fact">
+                    <h2>Les 3 objets les plus intéressants</h2>
+                    <h3 style="margin-top:1rem;">1. La Joconde</h3>
+                    <p>Peinte par Léonard de Vinci entre 1503 et 1506 (et retouchée jusqu’en 1519) à Florence puis en France. C’est le portrait de Lisa Gherardini (épouse d’un marchand florentin). Technique : sfumato (transition douce des tons). Volée en 1911, retrouvée en 1913.</p>
+                    
+                    <h3 style="margin-top:1rem;">2. Vénus de Milo</h3>
+                    <p>Sculpture grecque hellénistique anonyme (vers 150-100 av. J.-C.). Découverte en 1820 par un paysan sur l’île de Milos. Offerte à Louis XVIII. Bras manquants : probablement cassés lors du transport ou d’une bataille.</p>
+                    
+                    <h3 style="margin-top:1rem;">3. La Victoire de Samothrace</h3>
+                    <p>Statue hellénistique (vers 190 av. J.-C.) représentant la déesse Niké. Découverte en 1863 par Charles Champoiseau sur l’île de Samothrace. Ailes et tête manquantes. Placée sur l’escalier Daru pour un effet dramatique.</p>
+                </div>
+                <div class="fact">
+                    <h2>Infos pratiques</h2>
+                    <p><strong>Adresse :</strong> Rue de Rivoli, 75001 Paris<br>
+                    <strong>Horaires :</strong> 9h-18h (lundi, jeudi, samedi, dimanche) ; 9h-21h (mercredi, vendredi) ; fermé mardi<br>
+                    <strong>Prix :</strong> 22 € – 32 € (gratuit -26 ans UE)<br>
+                    <strong>Choses affichées :</strong> Pyramide de verre, Code de Hammurabi, antiquités égyptiennes, peintures françaises.</p>
+                </div>
+
+                <!-- NOUVEAU : STATIONS DE MÉTRO + GUIDE ÉTAPE PAR ÉTAPE -->
+                <div class="fact">
+                    <h2>Stations de métro les plus proches</h2>
+                    <p><strong>Station :</strong> Palais Royal - Musée du Louvre (lignes 1 et 7)</p>
+                    <p><strong>Guide étape par étape :</strong></p>
+                    <ol>
+                        <li>Depuis n’importe quel point du centre de Paris, prenez la ligne 1 direction La Défense ou Château de Vincennes.</li>
+                        <li>Descendez directement à la station Palais Royal - Musée du Louvre.</li>
+                        <li>Prenez la sortie n°1 « Pyramide du Louvre » : vous arrivez juste devant l’entrée principale.</li>
+                    </ol>
+                </div>
+
+                <!-- NOUVEAU : RESTAURANTS & CAFÉS -->
+                <div class="fact">
+                    <h2>Restaurants & cafés à proximité</h2>
+                    <ul>
+                        <li><strong>Café Marly</strong> – vue imprenable sur la pyramide, cuisine française raffinée (à 2 min)</li>
+                        <li><strong>Le Fumoir</strong> – café littéraire chic, cocktails et brunch (à 5 min)</li>
+                        <li><strong>Angelina</strong> – célèbre pour son chocolat chaud et ses pâtisseries (à 3 min de la pyramide)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="map-tour-section">
+                <div class="map-tour-grid">
+                    <div class="map-card">
+                        <h2>Carte interactive</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.874102782339!2d2.335069076314627!3d48.86061107133245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMus%C3%A9e%20du%20Louvre!5e0!3m2!1sfr!2sro!4v1775684756375!5m2!1sfr!2sro" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="map-card">
+                        <h2>Visite guidée immersive</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1775729935939!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQzRtX3ExUWc.!2m2!1d48.86121197066175!2d2.337659459870326!3f21.852821966603443!4f-7.212419996651022!5f0.4000000000000002" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <h2>Conseil visite guidée</h2>
+                    <p>Privilégiez une visite guidée thématique (Louvre classique ou chefs-d’œuvre) pour éviter de vous perdre dans les salles. Le parcours virtuel permet de préparer votre itinéraire avant l’arrivée.</p>
+                </div>
+            </div>
+
+            <div class="reviews-section">
+                <h2>Avis de visiteurs</h2>
+                <div class="review"><blockquote>« La Joconde est petite mais magique. J’ai suivi le parcours et vu 15 chefs-d’œuvre en 3h. »</blockquote><p>— Thomas ★★★★★</p></div>
+                <div class="review"><blockquote>« Première fois : la pyramide m’a bluffé. Audioguides super ! »</blockquote><p>— Léa ★★★★★</p></div>
+                <div class="review"><blockquote>« Vénus de Milo m’a laissé sans voix. Moins de foule le vendredi soir. »</blockquote><p>— Antoine ★★★★☆</p></div>
+                <div class="review"><blockquote>« La Victoire de Samothrace est énorme ! Parfait pour un premier musée. »</blockquote><p>— Clara ★★★★★</p></div>
+                <div class="review"><blockquote>« Gratuit pour les jeunes, je suis resté 5 heures. Incroyable ! »</blockquote><p>— Paul ★★★★★</p></div>
+            
+                <form class="review-form">
+                    <label for="louvre-reviewer-name"><strong>Nom</strong></label>
+                    <input type="text" id="louvre-reviewer-name" class="reviewer-name" required>
+                    <label for="louvre-review-text"><strong>Avis</strong></label>
+                    <textarea id="louvre-review-text" class="review-text" rows="4" required></textarea>
+                    <label><strong>Note</strong></label>
+                    <div class="stars">
+                        <input type="radio" id="louvre-star5" name="rating-louvre" value="5">
+                        <label for="louvre-star5">★</label>
+                        <input type="radio" id="louvre-star4" name="rating-louvre" value="4">
+                        <label for="louvre-star4">★</label>
+                        <input type="radio" id="louvre-star3" name="rating-louvre" value="3">
+                        <label for="louvre-star3">★</label>
+                        <input type="radio" id="louvre-star2" name="rating-louvre" value="2">
+                        <label for="louvre-star2">★</label>
+                        <input type="radio" id="louvre-star1" name="rating-louvre" value="1">
+                        <label for="louvre-star1">★</label>
+                    </div>
+                    <button type="submit"><strong>Soumettre</strong></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026  | Tous droits réservés • Razvan, Sebastian, Catalin, Leonard, Iustin</p>
+        <a href="privacy.html">Confidentialité</a> | <a href="terms.html">Conditions d'Utilisation</a> | <a href="https://forms.gle/p7tvY1pFosFmPXE57">Questionnaire de satisfaction</a>
+    </footer>
+</body>
+</html>

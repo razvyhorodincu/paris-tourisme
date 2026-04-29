@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris-Visite</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/256/203/203026.png">
+    <link rel="stylesheet" href="paris.css">
+    <script src="paris.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <a href="accueil.html" class="logo">Paris-Visite</a>
+        <ul class="nav-links">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="tour_eiffel.html">Tour Eiffel</a></li>
+            <li><a href="musee_louvre.html">Musée du Louvre</a></li>
+            <li><a href="chateau_versailles.html">Château de Versailles</a></li>
+            <li><a href="notre-dame.html">Notre-Dame</a></li>
+            <li><a href="disneyland.html">Disneyland Paris</a></li>
+        </ul>
+    </nav>
+
+    <div id="home" class="page">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Paris-Visite — Tourisme</h1>
+                <p>Salut ! Voici les 5 sites incontournables de Paris avec toutes les infos officielles 2026 : horaires, prix, adresses, histoire détaillée, fun facts et 5 avis réels de visiteurs.</p>
+                <button class="btn" onclick="window.location.href='tour_eiffel.html'">Commencer la visite</button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card" onclick="window.location.href='tour_eiffel.html'">
+                <img src="https://www.batobus.com/sites/default/files/2019-08/stations_05_tour_eiffel_introduction_480x700.png" alt="Tour Eiffel">
+                <div class="card-content">
+                    <h3>La Tour Eiffel</h3>
+                    <p>Le symbole de Paris depuis 1889.</p>
+                    <p><strong>~7 millions de visiteurs/an</strong></p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='musee_louvre.html'">
+                <img src="https://www.unjourdeplusaparis.com/wp-content/uploads/2015/05/photo-louvre-insolite.jpg" alt="Musée du Louvre">
+                <div class="card-content">
+                    <h3>Le Musée du Louvre</h3>
+                    <p>Le plus grand musée du monde.</p>
+                    <p><strong>~9 millions de visiteurs/an</strong></p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='chateau_versailles.html'">
+                <img src="https://www.hotel-roys-versailles.com/wp-content/uploads/roys-versailles/blog/hotel-des-roys-versailles-chateau-de-versailles.webp" alt="Château de Versailles">
+                <div class="card-content">
+                    <h3>Le Château de Versailles</h3>
+                    <p>Le palais du Roi Soleil.</p>
+                    <p><strong>~8 millions de visiteurs/an</strong></p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='notre-dame.html'">
+                <img src="https://www.parisselectbook.com/wp-content/uploads/2024/06/retouche-photo-word-press-45.jpg" alt="Notre-Dame">
+                <div class="card-content">
+                    <h3>Notre-Dame de Paris</h3>
+                    <p>Réouverte en 2024.</p>
+                    <p><strong>~12-14 millions de visiteurs/an</strong></p>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='disneyland.html'">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Sleeping_Beauty_Castle%2C_Disneyland%2C_Paris.jpg/1280px-Sleeping_Beauty_Castle%2C_Disneyland%2C_Paris.jpg" alt="Disneyland Paris">
+                <div class="card-content">
+                    <h3>Disneyland Paris</h3>
+                    <p>La magie Disney à 30 min de Paris.</p>
+                    <p><strong>15,8 millions de visiteurs/an</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- NOUVEAU : TRANSPORT + PLAN -->
+        <div class="home-extra">
+            <h2 style="text-align:center; margin-bottom:2rem;">Comment arriver en France ?</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem;">
+                <div style="text-align:center;">
+                    <h3 style="color:var(--red);">Avion</h3>
+                    <p><a href="https://www.airfrance.fr" target="_blank" style="color:var(--red); font-weight:700;">Air France</a> – vols directs depuis la Roumanie</p>
+                    <p><a href="https://www.ryanair.com" target="_blank" style="color:var(--red); font-weight:700;">Ryanair</a> – billets low-cost les moins chers</p>
+                </div>
+                <div style="text-align:center;">
+                    <h3 style="color:var(--red);">Autocar</h3>
+                    <p><a href="https://www.flixbus.fr" target="_blank" style="color:var(--red); font-weight:700;">FlixBus</a> – voyages confortables et économiques depuis Bucarest / Cluj</p>
+                </div>
+            </div>
+
+            <h2 style="text-align:center; margin:3rem 0 1.5rem;">Plan de visite recommandé (3-4 jours)</h2>
+            <ul style="max-width:800px; margin:0 auto; font-size:1.1rem;">
+                <li><strong>3 jours :</strong> Jour 1 → Tour Eiffel + Notre-Dame (soir illuminations). Jour 2 → Musée du Louvre + balade Seine. Jour 3 → Château de Versailles.</li>
+                <li><strong>4 jours :</strong> Jour 4 → Disneyland Paris (matin tôt + feux d’artifice le soir).</li>
+                <li><strong>Conseil :</strong> Achète les billets en ligne 2-3 semaines avant pour éviter les files !</li>
+            </ul>
+        </div>
+    </div>
+
+   
+    <footer>
+        <p>© 2026  | Tous droits réservés • Razvan, Sebastian, Catalin, Leonard, Iustin</p>
+        <a href="privacy.html">Confidentialité</a> | <a href="terms.html">Conditions d'Utilisation</a> | <a href="https://forms.gle/p7tvY1pFosFmPXE57">Questionnaire de satisfaction</a>
+    </footer>
+</body>
+</html>
